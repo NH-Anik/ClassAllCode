@@ -1,0 +1,331 @@
+
+
+@media(max-width: 1920px) {
+  .main-btn-two button{
+    padding: 8px 12px;
+  }
+  nav .main-con-res-btn{
+    display: none;
+  }
+}
+
+@media(max-width: 1024px) {
+  h1{
+    font-size: 20px;
+  }
+  .container{
+    width: 100%;
+    padding: 10px;
+  }
+  .btn{
+    padding: 14px 22px;
+  }
+  .main-btn{
+    text-align: center;
+    margin: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+  }
+  .main-btn-two {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+
+  }
+  .main-btn-two button{
+    padding: 8px 12px;
+  }
+  nav .main-con-res-btn{
+    display: none;
+  }
+}
+
+@media(max-width: 768px) {
+   h1{
+       font-size: 18px;
+   }
+   .container{
+       width: 100%;
+       padding: 10px;
+   }
+   .btn{
+    padding: 12px 20px;
+   }
+   .main-btn{
+    text-align: center;
+    margin: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+   }
+    .main-btn-two {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+
+  }
+   .main-btn-two button{
+    padding: 8px 12px;
+  }
+  nav .main-con-res-btn{
+    display: none;
+  }
+}
+
+@media(max-width: 736px) {
+   h1{
+       font-size: 18px;
+   }
+   .container{
+       width: 100%;
+       padding: 10px;
+   }
+   .btn{
+    padding: 11px 19px;
+   }
+   .main-btn{
+    text-align: center;
+    margin: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+   }
+    .main-btn-two {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+
+  }
+   .main-btn-two button{
+    padding: 8px 12px;
+  }
+  nav .main-con-res-btn{
+    display: none;
+  }
+}
+
+/* for small device work start only navbar */
+
+@media(max-width: 684px) {
+   h1{
+       font-size: 18px;
+   }
+   .container{
+       width: 100%;
+       padding: 10px;
+   }
+   .btn{
+    padding: 9px 17px;
+   }
+   .main-btn{
+    text-align: center;
+    margin: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+   }
+    .main-btn-two {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+
+  }
+   .main-btn-two button{
+    padding: 8px 12px;
+  }
+  nav ul{
+    display: none;
+  }
+  nav .main-con-res-btn{
+    display: block;
+  }
+  .main-box{
+    flex-direction: column;
+  }
+  .box-one,.box-two{
+    width:100%;
+  }
+}
+
+@media(max-width: 667px) {
+   h1{
+       font-size: 18px;
+   }
+   .container{
+       width: 100%;
+       padding: 10px;
+   }
+   .btn{
+    padding: 8px 16px;
+   }
+   .main-btn{
+    text-align: center;
+    margin: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+   }
+    .main-btn-two {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+
+  }
+   .main-btn-two button{
+    padding: 8px 12px;
+  } .main-img img{
+    width: 49%;
+    margin-bottom: 7px;
+  }
+  nav .main-con-res-btn{
+    display: block;
+  }
+}
+
+@media(max-width: 414px) {
+   h1{
+       font-size: 16px;
+   }
+   .container{
+       width: 100%;
+       padding: 10px;
+   }
+   .btn{
+    padding: 6px 14px;
+   }
+   .main-btn{
+    text-align: center;
+    margin: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+   }
+    .main-btn-two {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+
+  }
+   .main-btn-two button{
+    padding: 8px 0px;
+    width: 100%;
+  }
+  /* .main-img{
+    gap: ;
+  } */
+  .main-img img{
+    width: 49%;
+    margin-bottom: 7px;
+  }
+  nav .main-con-res-btn{
+    display: block;
+  }
+}
+
+@media(max-width: 375px) {
+  h1{
+    font-size: 16px;
+  }
+  .container{
+    width: 100%;
+    padding: 10px;
+  }
+  .btn{
+    padding: 5px 13px;
+  }
+  .main-btn{
+    text-align: center;
+    margin: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+  }
+    .main-btn-two {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+
+  }
+  .main-btn-two button{
+    padding: 8px 0px;
+  }
+
+  nav{
+    padding: 12px 10px;
+  }
+  nav .logo{
+    font-size: 18px;
+  }
+  nav .main-con-btn-nav button{
+    padding: 4px 8px;
+  }
+  nav .main-con-res-btn{
+    display: block;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 3px;
+    cursor: pointer;
+  }
+  nav .main-con-res-btn div{
+    width: 15px;
+    height: 2px;
+  }
+}
+
+@media(max-width: 240px) {
+  .main-img img{
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  nav{
+    padding: 12px 4px;
+  }
+  nav .logo{
+    font-size: 18px;
+  }
+  nav .main-con-btn-nav button{
+    padding: 4px 8px;
+  }
+  nav .main-con-res-btn{
+    display: block;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 3px;
+    cursor: pointer;
+  }
+  nav .main-con-res-btn div{
+    width: 15px;
+    height: 2px;
+  }
+}
+
+

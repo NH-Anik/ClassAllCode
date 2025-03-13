@@ -1,0 +1,94 @@
+@font-face{
+    font-family: myfont;
+    src: url(../webfont/Mollie.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    font-family: myfont;
+}
+.abc{
+    text-align: center;
+    color: blue;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+h1{
+    color: rgb(35, 17, 196);
+}
+
+.abcd{
+    color: blue;
+    font-size: 28px;
+}
+
+img{
+    width: 200px;
+}
+
+button{
+    color: red;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid green;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-all-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightblue;
+    border: 1px solid lightgreen;
+    border-radius: 15px;
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+}
+form label{
+    text-align: left;
+}
+form input{
+    outline: none;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+form div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form div a{
+    color:blue;
+}

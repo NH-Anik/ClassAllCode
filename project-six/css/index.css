@@ -1,0 +1,139 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap'); */
+
+*{
+   padding: 0px; 
+   margin: 0px;
+   /* text-decoration: none;
+   list-style-type: none; */
+}
+
+body{
+    box-sizing: border-box;
+    /* font-family: "Fascinate Inline", system-ui;
+    font-weight: 600;
+    font-style: bold; */
+}
+
+/* .container{
+    width: 1320px;
+} */
+
+.reg{
+    position: relative;
+    margin: 0px auto;
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    margin-top:100px;
+}
+
+.reg::before{
+    content: "";
+    position: absolute;
+    height: 700px;
+    width: 20px;
+    background-color: lightcoral;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.reg::after{
+    content: "";
+    position: absolute;
+    height: 700px;
+    width: 20px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+    border-radius: 2px;
+    right: 0px;
+    top: 0px;
+}
+
+.cer{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* .fascinate-inline-regular {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+   */
+ul li a i{
+    color: green;
+    font-size: 20px;
+}
+
+
+
+ul li a{
+    padding: 8px 4px;
+    border: 1px solid red;
+    border-radius: 2px;
+    background: lightpink;
+    color: green;
+}
+.one li{
+    list-style-type: circle;
+    margin-left: 100px;
+}
+.two li{
+    list-style-type: square;
+    margin-left: 100px;
+}
+.three li{
+    list-style-type: upper-roman ;
+    margin-left: 100px;
+}
+.four li{
+    list-style-type: lower-alpha;
+    margin-left: 100px;
+}
+
+.a,.b,.c{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.a{
+
+    background-color: red;
+    z-index: 1;
+}
+
+.b{
+    background-color: rgb(38, 0, 255);
+    z-index: 2;
+}
+
+.c{
+    background-color: rgb(0, 255, 13);
+    z-index: 999;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+    overflow-y: scroll;
+    float: left;
+    opacity: .2;
+}
+
+
+div p{}
+
+div > p{
+
+}

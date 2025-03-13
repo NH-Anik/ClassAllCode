@@ -1,0 +1,117 @@
+
+*{
+   padding: 0px; 
+   margin: 0px;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0px auto;
+    background-color: lightgrey;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcyan;
+    padding: 4px;
+}
+nav picture img{
+    width: 80px;
+    height: 60px;
+}
+nav div a{
+    background-color: lightskyblue;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 4px;
+}
+
+.login-with-registration-btn-controller {
+  margin: 10px 0;
+  display: flex;
+  justify-content:space-evenly;
+}
+.login-with-registration-btn-controller button{
+    background-color: lightskyblue;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.login-main{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .login-main h1{
+    text-align: center;
+} */
+/* .login-main p{
+    text-align: center;
+} */
+.footer{
+    margin: 10px 0;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    width: 25%;
+}
+.email-controllar,.password-controllar{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.remember-me-forgot-password{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dropdown-controller{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.dropdown-controller h1{
+  color: white;
+  background-color: lightskyblue;
+  width: 20%;
+  text-align: center;
+}
+
+
+.dropdown-controller div ol {
+    display: none;
+    position: absolute;
+    background-color: lightsalmon;
+    padding: 4px;
+    top: 99%;
+    left: 40%;
+}
+
+.dropdown-controller:hover.dropdown-controller div ol{
+    display: block;
+}

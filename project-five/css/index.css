@@ -1,0 +1,29 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+/* .container{
+    width: 1320px;
+} */
+
+.reg{
+    margin: 0px auto;
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    margin-top:100px;
+}
+
+.cer{
+    height: 200px;
+    width: 150px;
+    background-color: red;
+    border-radius: 100%;
+}

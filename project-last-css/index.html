@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>project-four</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <style>
+      h1{
+          text-align: center;
+          margin: 15px 0;
+      }
+
+      .mother{
+          display: flex;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+      }
+
+      .gallery{
+          border: 2px solid black;
+          width: 23%;
+          padding: 4px;
+          text-align: center;
+      }
+
+      .gallery:hover{
+          border: 2px solid rgb(99, 18, 230);
+      }
+
+      .gallery img{
+        /* border: 2px solid black; */
+        width: 100%;
+      }
+
+      .btn{
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+      }
+
+      .btn:hover{
+        border: 2px solid rgb(10, 172, 110);
+      }
+
+      .btns{
+          display: flex;
+          justify-content: center;
+          margin: 15px 0;
+          gap: 10px;
+      }
+
+      .btns a{
+         color: lightblue;
+      }
+      .btns a:hover{
+        color: rgb(235, 40, 26);
+      }
+
+     a[target="_blank"] {
+        background-color: yellow;
+      }
+
+
+      ol{
+        counter-reset: section;
+        list-style-type: none;
+      }
+
+      li::before {
+        counter-increment: section;
+        content: counters(section,".") " ";
+      }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="contaner">
+      <h1>Photo gallery</h1>
+      <div class="mother">
+        <div class="gallery">
+          <img src="./img/one.jpg" alt="pic one">
+          <h2>Img Name: one</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="gallery">
+          <img src="./img/two.jpg" alt="pic one">
+          <h2>Img Name: two</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="gallery">
+          <img src="./img/three.jpg" alt="pic one">
+          <h2>Img Name: three</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="gallery">
+          <img src="./img/four.jpg" alt="pic one">
+          <h2>Img Name: four</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="btns">
+          <a href="www.facebook.com" target="_blank">
+            <div class="back btn"><i class="fa-solid fa-arrow-left"></i></div>
+          </a>
+          <a href="www.youtube.com" target="_blank">
+            <div class="home btn"><i class="fa-solid fa-house"></i></div>
+          </a>
+          <a href="#" target="_blank">
+            <div class="next btn"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>  
+      </div>
+
+      <div class="abc">
+       <a href="#"> home</a>
+       <a href="#"> about</a>
+       <a href="#"> blog</a>
+      </div>
+
+
+      <ol>
+        <li>Home</li>
+        <li>bike
+          <ol>
+            <li>scooter
+
+              <ol>
+                <li>abc</li>
+                <li>abcd</li>
+              </ol>
+            </li>
+            <li>motorcycle 
+             
+            </li>
+          </ol>
+        </li>
+        <li>car</li>
+        <li>bag</li>
+      </ol>
+
+
+
+    </div>
+   
+</body>
+
+</html>

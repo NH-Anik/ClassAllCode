@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap');
+*{
+   padding: 0px; 
+   margin: 0px;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+:root{
+    --main-color:#f712eb;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    /* max-width: 1320px; */
+    margin: 0px auto;
+    background-color: lightgrey;
+}
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #160c6e;
+    padding: 18px 0;
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+
+
+nav picture img{
+    width: 102px;
+    height: 60px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 15px;
+}
+.menu ul li a{
+    color: white;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+.menu ul li a:hover{
+    color: var(--main-color);
+}
+.menu ul li a i{
+    font-size: 10px;
+}
+
+.btn-controller a{
+    color: white;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    height: 64px;
+    width: 151px;
+    background-color: var(--main-color);
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.hero{
+    background-image: url("../img/image.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-color-controller{
+    background-color: #6b63c5; 
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    position: relative;
+}
+
+.img-one{
+    position: absolute;
+    top: 304px;
+    left: 31px;
+}
+.img-two{
+    position: absolute;
+    right: 304px;
+    bottom: 73px;
+}
+
+.hero-all-text-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-all-text-con h1{
+    text-transform: capitalize;
+    font-size: 84px;
+    font-weight: 700;
+    color: white;
+    width: 1102px;
+    text-align: center;
+}
+.hero-all-text-con p{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    width:715px;
+    text-align: center;
+    font-family: "Paprika", system-ui;
+    margin-bottom: 16px;
+}
+
+.two-btn-con a{
+    color: white;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    height: 64px;
+    width: 151px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    margin: 0px 10px;
+    border: 2px solid var(--main-color);
+}
+.two-btn-con a:hover{
+    background-color: var(--main-color); 
+}

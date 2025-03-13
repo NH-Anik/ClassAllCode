@@ -1,0 +1,124 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.one{
+    height: 500px;
+    /* height: 10%;
+    height: 10rem;
+    height: 10vh; */
+
+
+    width: 500px;
+    /* width: 10%;
+    width: 10rem;
+    width: 10vh; */
+    
+    background: rgb(168, 216, 168);  
+
+    background-color: rgb(26, 15, 15);  
+   
+    /* background-image: none; */
+
+    border-right: 10px dotted  rgb(42, 62, 240) ;
+    border-left: 10px dotted  rgb(42, 62, 240) ;
+
+    border-top: 10px dotted  rgb(240, 42, 42) ;
+    border-bottom: 10px dotted  rgb(240, 42, 42) ;
+
+
+    color: white;
+
+}
+
+
+section{
+    width:500px;
+    height: 500px;
+    background-color: lightgreen;
+    margin-top: 20px;
+    padding-left: 30px;
+
+}
+
+
+
+
+.input{
+    outline-style: dotted;
+    outline-color: red;
+    outline: thick ridge pink;
+    border: none;
+}
+
+
+
+
+.text{
+    width: 500px;
+    height: 200px;
+    /* background-color: rgb(30, 39, 30); */
+    padding: 5px;
+}
+
+.text h1{
+    color: rgb(50, 60, 205);
+    text-align: center;
+    text-decoration: overline underline;
+}
+
+.text p{
+    color: yellowgreen;
+    text-align: justify;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px red;
+}
+.text a{
+   color: white;
+}
+.text a:hover {
+    color: hotpink;
+}
+
+.text a:active {
+    color: rgb(0, 255, 21);
+}
+
+/* .text a:visited {
+    color: rgb(128, 0, 0);
+} */
+
+/* nav ul li{
+  
+} */
+
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    text-align: center;
+}
+table tbody{
+    width: 500px;
+    border-collapse: collapse;
+    text-align: center;
+}
+table thead{
+    background-color: rgb(42, 62, 240);
+    color: #fff;
+}
+table thead tr td{
+    border: 2px solid black;
+    padding: 10px;
+}
+table tbody tr td{
+    border: 2px solid black;
+    padding: 10px;
+}

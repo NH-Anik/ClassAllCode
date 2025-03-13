@@ -1,0 +1,164 @@
+
+*{
+   padding: 0px; 
+   margin: 0px;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0px auto;
+    background-color: lightgrey;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+nav picture img{
+    width: 80px;
+    height: 50px;
+}
+
+div ul{
+   display: flex;
+   gap: 10px;
+}
+
+div ul li a {
+    color: white;
+}
+
+div ul li a:hover{
+    color: lightseagreen;
+}
+
+
+nav div button, section div div button{
+    padding: 8px 4px;
+    background: lightseagreen;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+nav div button:hover{
+    background: rgb(45, 56, 6);
+    color: rgb(255, 0, 0);
+}
+
+.hero-controll{
+    padding: 100px;
+    background-image: url('../img/hero.jpeg');
+    text-align: center;
+}
+.hero-controll h1{
+  font-size: 32px;
+  color: white;
+  margin: 10px 0px;
+text-shadow: 1px 1px 1px black
+}
+
+.hero-controll p{
+  font-size: 32px;
+  color: rgb(206, 206, 206);
+  margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.a{
+    /* height: 800px; */
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap:wrap; */
+    /* flex-flow: column wrap; */
+    /* justify-content:space-evenly; */
+    /* justify-content:space-around; */
+    /* align-items: baseline ; */
+    /* align-content: start; */
+    /* align-content: stretch ; */
+    /* gap: 2px; */
+    /* row-gap: 10px; */
+
+}
+.dipto{
+    display: flex;
+    /* flex-direction: column; */
+    /* row-gap: 10px; */
+    column-gap: 20px;
+}
+
+.bb{
+    height: 180px;
+    width: 200px;
+    background-color: lightcoral;
+    /* margin: 5px; */
+}
+.bc{
+    height: 180px;
+    width: 200px;
+    background-color: rgb(240, 223, 128);
+    /* margin: 5px; */
+}
+.bd{
+    height: 180px;
+    width: 200px;
+    background-color: rgb(147, 240, 128);
+    /* margin: 5px; */
+}
+.be{
+    height: 180px;
+    width: 200px;
+    background-color: rgb(42, 223, 208);
+    /* margin: 5px; */
+}
+.bf{
+    height: 180px;
+    width: 200px;
+    background-color: rgb(130, 128, 240);
+    /* margin: 5px; */
+}
+
+
+.reg{
+height: 400px;
+width: 600px;
+background-color: green;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cer{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+background-color: red;
+}

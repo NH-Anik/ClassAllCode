@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration page</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="in-all-input">
+                <h1>This is our registration page</h1>
+                <form class="form" onsubmit="registration(event)">
+                    <label for="">new username</label>
+                    <input type="text" name="username" id="username">
+                    <p id="wrongUsername"></p>
+                    <label for="">new password</label>
+                    <input type="password" name="password" id="password">
+                    <label for="">confirm password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword">
+                    <p id="wrongPassword"></p>
+                    <button type="submit">registration</button>
+                    <a href="../index.html">login</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
