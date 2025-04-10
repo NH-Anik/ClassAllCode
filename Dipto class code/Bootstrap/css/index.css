@@ -1,5 +1,8 @@
 
-
+a{
+    text-decoration: none !important;
+    color: #000;
+}
 
 .color-controll{
     color: red;
@@ -19,5 +22,8 @@
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
-   background-image: url("https://images.pexels.com/photos/18189541/pexels-photo-18189541/free-photo-of-pink-cherry-tree-blooming-on-the-edge-of-a-mountain-road.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   background-image: url("../img/pic.jpg");
+}
+.h-controll{
+    height: 400px;
 }
