@@ -1,0 +1,19 @@
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.ani1{
+    width: 400px;
+    height: 200px;
+    background: #d62303;
+    padding: 20px;
+}
+
+.ani2{
+    width: 400px;
+    height: 200px;
+    background: #03d631;
+    padding: 20px;
+    margin-top: 20px;
+}
