@@ -1,0 +1,16 @@
+/* Import fallback if needed (optional, but not necessary with @font-face) */
+/* @import url('../font/Demo_Fonts/Fontspring-DEMO-integralcf-regular'); */
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('./font/Demo_Fonts/Fontspring-DEMO-integralcf-regular.woff2') format('woff2'),
+         url('./font/Demo_Fonts/Fontspring-DEMO-integralcf-regular.woff') format('woff'),
+         url('./font/Demo_Fonts/Fontspring-DEMO-integralcf-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; /* Improves performance and avoids invisible text */
+}
+
+body {
+    font-family: 'IntegralCF', Arial, sans-serif; /* Added fallback fonts */
+}
