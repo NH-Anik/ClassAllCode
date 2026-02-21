@@ -346,8 +346,11 @@
 // }
 
 // console.log(text);
-var arr=[32, 33, 16, 40];
-const jj = arr.find(x => x < 18);
+// var arr=[32, 33, 16, 40];
+// const jj = arr.find(x => x < 18);
 
-console.log(jj);
+// console.log(jj);
+
+
+
 
