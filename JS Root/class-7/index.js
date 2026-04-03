@@ -69,3 +69,49 @@
 // }
 // console.log(equal_pt("paatpss"));
 // console.log(equal_pt("paatps"));
+
+
+// function abc(e){
+//     var  alph = e.split("");
+
+//     for (var i = 0; i < alph.length; i++) {
+
+//         switch(alph[i]){
+//             case " ":
+//             break;
+
+//             case "z":
+//             alph[i] = "a";
+//             break;
+
+//             case "Z":
+//             alph[i] = "A";
+//             break;
+
+//             default:
+//             alph[i]=String.fromCharCode(alph[i].charCodeAt(0)+1);
+//         }
+
+//         switch(alph[i]){
+//             case "a": case "e": case "i": case "o": case "u":
+//             alph[i] = alph[i].toUpperCase();
+//             break;
+//         }
+
+//     }
+    
+//     return alph.join("");
+// }
+
+// console.log(abc("dipto"));
+
+function reverse3(array) {
+
+    console.log(array);
+    return array.map((value, index, arr ) => {
+        console.log(arr.length);
+        return arr[(arr.length - 1) - index];
+    });
+}
+
+console.log(  reverse3([5, 4, 3])   ); 
