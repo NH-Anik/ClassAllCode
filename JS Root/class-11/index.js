@@ -65,34 +65,20 @@ function sort_prime(num) {
   sort_prime(5)
 // );
 
-
-
-
-
-
-
 function trailing_zeros_factorial(n) {
-
-    var result = 0;
-
-    for (var i = 5; i <= n; i += 5) { 
-
-        var num = i; 
-        console.log(i);
-
-        while (num % 5 === 0) { 
-            // num /= 5; 1.6
-            num=num/5;
-            console.log(num);
-            result++; 
-        }
-
-    }
-
-    return result; 
-
+  var result = 0;
+  for (var i = 5; i <= n; i += 5) { 
+      var num = i; 
+      console.log(i);
+      while (num % 5 === 0) { 
+          // num /= 5; 1.6
+          num=num/5;
+          console.log(num);
+          result++; 
+      }
+  }
+  return result; 
 }
-
 // console.log(
   trailing_zeros_factorial(8)
 // );
